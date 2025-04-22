@@ -1,9 +1,9 @@
-const CACHE_NAME = "timetable-cache-v1";
+const CACHE_NAME = "timetable-cache-v5";
 const urlsToCache = [
   './index.html',
   './manifest.json',
   './icon.png',
-  './hanna.mp3'
+  './alarm.mp3'
 ];
 
 self.addEventListener("install", event => {
